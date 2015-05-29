@@ -1,0 +1,194 @@
+#Window {
+    -fx-padding: 0;
+    -fx-background-color: radial-gradient(center 70% 5%, radius 60%, #767a7b,#2b2f32);
+    -fx-background-image: url("images/noise.png") , url("images/title.png");
+    -fx-background-repeat: repeat, no-repeat;
+    -fx-background-position: left top, left 19px top 25px ;
+}
+#dialogWindow{
+    -fx-padding: 0;
+    -fx-background-color: radial-gradient(center 70% 5%, radius 60%, #767a7b,#2b2f32);
+    -fx-background-image: url("images/noise.png");
+    -fx-background-repeat: repeat, no-repeat;
+    -fx-background-position: left top, left 19px top 15px ;
+}
+#MainTabs {
+    -fx-padding: 149px 0 0 0;
+}
+#MainTabs *.tab-header-background {
+    -fx-background-color: transparent;
+    -fx-effect: null;
+    -fx-border-image-source: url("images/tab-area4.png");
+    -fx-border-image-slice: 0 0 25 0;
+    -fx-border-image-width: 0 0 25 0;
+    -fx-border-image-repeat: stretch;
+}
+#MainTabs *.tab-header-area {
+    -fx-padding: 0 10px 0 330px;
+}
+#MainTabs .headers-region {
+    -fx-effect: null;
+}
+#MainTabs .tab {
+    -fx-padding: 0px 5px -2px 5px;
+    -fx-background-insets: 0 -20 0 0;
+    -fx-background-color: transparent;
+    -fx-text-fill: #c4d8de;
+    -fx-border-image-source: url("images/tab5.png");
+    -fx-border-image-slice: 20 20 20 20 fill;
+    -fx-border-image-width: 20 20 20 20;
+    -fx-border-image-repeat: stretch;
+    -fx-font-size: 18px;
+}
+
+#MainTabs .tab:selected {
+    -fx-border-image-source: url("images/tab-selected5.png");
+    -fx-text-fill: #333333;
+}
+#MainTabs .tab-content-area {
+    -fx-background-color: #6a6d6e;
+}
+#MainTabs .tab *.tab-label .text {
+    -fx-effect: null;
+}
+.split-pane {
+    -fx-background-color: transparent;
+}
+.table-view, .table-view:focused  {
+    -fx-background-color: null;
+}
+.table-row-cell {
+    -fx-background-color: null;
+}
+.choice-box {
+    -fx-base: #c8dce3;
+    -fx-background: #899ca0;
+    -fx-outer-border: #899ca0;
+    -fx-shadow-highlight-color: transparent;
+}
+/* =============== LABELS ====================================================== */
+#labelBigger{
+    -fx-font-size: 22px;
+    -fx-fill: #ffffff;	
+}
+#labelBiggerWhite{
+    -fx-font-size: 22px;
+    -fx-fill: #ffffff;	
+    -fx-text-fill: #ffffee;
+}
+
+#labelBig{
+    -fx-font-size: 38px;
+    -fx-fill: #ffffff;	
+}
+
+/* =============== SCROLL BARS ================================================= */
+.scroll-bar {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 5;
+}
+.scroll-bar .thumb {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0.5em;
+}
+.scroll-bar .track  {
+    -fx-background-color: transparent;
+    -fx-background-insets:  0;
+    -fx-border-color: rgba(255,255,255,0.5);
+    -fx-border-radius: 0.5em;
+}
+.scroll-bar .increment-button {
+    -fx-background-color: null;
+}
+.scroll-bar:horizontal .increment-button {
+    -fx-padding: 0.5em 0 0.5em 0;
+}
+.scroll-bar:vertical .increment-button {
+    -fx-padding: 0 0.5em 0 0.5em;
+}
+.scroll-bar .decrement-button, .scroll-bar .increment-arrow, .scroll-bar .decrement-arrow {
+    -fx-background-color: null;
+    -fx-padding: 0;
+}
+.corner {
+    -fx-background-color: transparent;
+}
+
+#racersView .choice-box {
+    -fx-outer-border: #5b676b;
+}
+#racersView.split-pane {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+#racersView.split-pane .split-pane-divider {
+   -fx-padding: -3 0 -3 0;
+   -fx-border-color: null;
+   -fx-border-width: 0;
+   -fx-background-color: transparent;
+   -fx-background-insets: 0;
+}
+#racersView .horizontal-grabber {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+#racersView .vertical-grabber {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+#tableView{
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+    -fx-border-image-source: url("images/table-background.png"), url("images/noise.png");
+    -fx-border-image-slice: 0 0 1 0 fill, 0 0 0 0 fill;
+    -fx-border-image-width: 0 0 1 0, 0;
+    -fx-border-image-repeat: stretch, repeat;
+}
+#tableView Label , #tableView .table-cell { /* Center align table cells */
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+#anchorPane{
+	-fx-background-color: transparent;
+}
+.transparency{
+		-fx-background-color: transparent;	
+}
+/* =============== STYLE ALL TABLES ================================================= */
+#table {
+    -fx-padding: 15px;
+    -fx-background-color: transparent;
+    -fx-font-size: 16px;
+}
+.table-view {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 10;
+}
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent rgba(255,255,255,0.3) transparent;
+    -fx-border-width: 1;
+    -fx-background-insets: 0;
+    -fx-padding: 0 10 0 0;
+}
+.table-view .column-header, .table-view .filler {
+    -fx-border-color: transparent;
+}
+.table-view .column-header .label {
+    -fx-text-fill: #e1fdff;
+    -fx-font-weight: bold;
+}
+.table-view .table-cell {
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+}
+.table-view  .table-row-cell:filled:selected:focused, .table-row-cell:filled:selected {
+    -fx-background-color: rgba(0,0,0,0.1);
+}

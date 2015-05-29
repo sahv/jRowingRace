@@ -1,0 +1,27 @@
+<list>
+  <codeTable>
+    <id>1</id>
+    <acronym>TEAM_CATEGORY_BOYS_OLDER</acronym>
+    <value>Starší chlapci</value>
+  </codeTable>
+  <codeTable>
+    <id>2</id>
+    <acronym>TEAM_CATEGORY_BOYS_YOUNGER</acronym>
+    <value>Mladší chlapci</value>
+  </codeTable>
+  <codeTable>
+    <id>3</id>
+    <acronym>TEAM_CATEGORY_EMPLOYEES</acronym>
+    <value>Pedagógovia +</value>
+  </codeTable>
+  <codeTable>
+    <id>4</id>
+    <acronym>TEAM_CATEGORY_GIRLS_OLDER</acronym>
+    <value>Staršie dievčatá</value>
+  </codeTable>
+  <codeTable>
+    <id>5</id>
+    <acronym>TEAM_CATEGORY_GIRLS_YOUNGER</acronym>
+    <value>Mladšie dievčatá</value>
+  </codeTable>
+</list>

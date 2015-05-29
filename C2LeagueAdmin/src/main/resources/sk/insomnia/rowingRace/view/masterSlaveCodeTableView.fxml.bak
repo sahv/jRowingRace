@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="672.0" prefWidth="979.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sk.insomnia.rowingRace.controller.MasterSlaveCodeTableController">
+  <children>
+    <VBox prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox prefHeight="634.0" prefWidth="979.0">
+          <children>
+            <VBox prefHeight="603.0" prefWidth="489.5">
+              <children>
+                <HBox prefHeight="21.0" prefWidth="200.0">
+                  <children>
+                    <Label fx:id="lbMasterCodeTable" alignment="CENTER_RIGHT" prefWidth="162.0" text="%label.masterCodeTable">
+                      <HBox.margin>
+                        <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" fx:id="x1" />
+                      </HBox.margin>
+                    </Label>
+                    <ComboBox fx:id="cbMasterCodeTable" prefHeight="21.0" prefWidth="138.0" HBox.margin="$x1">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Item 1" />
+                          <String fx:value="Item 2" />
+                          <String fx:value="Item 3" />
+                        </FXCollections>
+                      </items>
+                    </ComboBox>
+                  </children>
+                </HBox>
+                <TableView fx:id="tbMasterCodeTable" prefHeight="566.0" prefWidth="482.0" VBox.margin="$x1">
+                  <columns>
+                    <TableColumn maxWidth="350.0" minWidth="100.0" prefWidth="220.0" text="%label.codeTableValue" fx:id="tcMasterCodeTableValue" />
+                  </columns>
+                </TableView>
+              </children>
+            </VBox>
+            <VBox prefHeight="603.0" prefWidth="482.0">
+              <children>
+                <HBox prefHeight="21.0" prefWidth="200.0">
+                  <children>
+                    <Label prefWidth="162.0" text="%label.slaveCodeTable" HBox.margin="$x1" />
+                    <ComboBox fx:id="cbSlaveCodeTable" prefHeight="21.0" prefWidth="138.0" HBox.margin="$x1">
+                      <items>
+                        <FXCollections fx:factory="observableArrayList">
+                          <String fx:value="Item 1" />
+                          <String fx:value="Item 2" />
+                          <String fx:value="Item 3" />
+                        </FXCollections>
+                      </items>
+                    </ComboBox>
+                  </children>
+                </HBox>
+                <TableView fx:id="tbSlaveCodeTable" prefHeight="570.0" prefWidth="474.0" VBox.margin="$x1">
+                  <columns>
+                    <TableColumn minWidth="269.0" prefWidth="75.0" text="%label.slaveCodeTable.values" fx:id="tcSlaveCodeTableValues" />
+                  </columns>
+                </TableView>
+              </children>
+            </VBox>
+          </children>
+        </HBox>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+          <children>
+            <Button mnemonicParsing="false" onAction="#onSave" text="%label.save.codeTableRelation" HBox.margin="$x1" />
+          </children>
+          <VBox.margin>
+            <Insets />
+          </VBox.margin>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

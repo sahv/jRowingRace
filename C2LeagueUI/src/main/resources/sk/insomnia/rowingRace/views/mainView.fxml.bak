@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?scenebuilder-stylesheet ../css/rowingRace.css?>
+
+<AnchorPane id="Window" prefHeight="692.0" prefWidth="979.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sk.insomnia.rowingRace.ui.controller.MainViewController">
+  <children>
+    <BorderPane prefHeight="692.0" prefWidth="979.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <center>
+        <TabPane id="MainTabs" fx:id="tabPane" prefHeight="667.0" prefWidth="979.0" tabClosingPolicy="UNAVAILABLE">
+          <tabs>
+            <Tab text="%label.tab.institution">
+              <content>
+                <fx:include fx:id="schoolView" source="schoolView.fxml" />
+              </content>
+            </Tab>
+            <Tab id="" style="" text="%label.tab.teams">
+              <content>
+                <fx:include fx:id="racersView" source="racersView.fxml" />
+              </content>
+            </Tab>
+            <Tab text="%label.tab.race">
+              <content>
+                <fx:include fx:id="raceView" source="raceView.fxml" />
+              </content>
+            </Tab>
+          </tabs>
+        </TabPane>
+      </center>
+      <top>
+        <MenuBar prefHeight="25.0" prefWidth="979.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="%menu.application">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#handleClose" text="%menu.item.close" />
+                <MenuItem mnemonicParsing="false" text="%menu.item.language" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </top>
+    </BorderPane>
+  </children>
+</AnchorPane>

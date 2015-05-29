@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="dialogWindow" prefHeight="195.0" prefWidth="370.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sk.insomnia.rowingRace.controller.RaceYearController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <VBox id="VBox" alignment="CENTER" prefHeight="121.0" prefWidth="333.0" spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <HBox id="HBox" alignment="CENTER" spacing="5.0">
+          <children>
+            <Label id="labelBiggerWhite" alignment="CENTER_RIGHT" prefWidth="167.0" text="%label.raceCalendar.year">
+              <HBox.margin>
+                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" fx:id="x1" />
+              </HBox.margin>
+            </Label>
+            <TextField fx:id="tfRaceYear" prefWidth="200.0" HBox.margin="$x1" />
+          </children>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" spacing="5.0">
+          <children>
+            <Label alignment="CENTER_RIGHT" prefWidth="166.5" text="%race.raceCategory" HBox.margin="$x1" />
+            <ComboBox fx:id="cbRaceCategories" prefHeight="21.0" prefWidth="200.0" HBox.margin="$x1" />
+          </children>
+        </HBox>
+        <HBox prefHeight="29.0" prefWidth="370.0">
+          <children>
+            <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="22.0" prefWidth="165.0" text="%maxRacers" HBox.margin="$x1" />
+            <Slider fx:id="slMaxRacers" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="1" prefWidth="200.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" HBox.margin="$x1" />
+          </children>
+        </HBox>
+        <HBox>
+          <children>
+            <Label alignment="CENTER_RIGHT" prefWidth="165.0" text="%numberOfAlternates">
+              <HBox.margin>
+                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" fx:id="x1" />
+              </HBox.margin>
+            </Label>
+            <Slider fx:id="slAlternates" blockIncrement="1.0" majorTickUnit="1.0" max="10.0" min="1.0" minorTickCount="1" prefWidth="200.0" showTickLabels="true" showTickMarks="true" snapToTicks="true">
+              <HBox.margin>
+                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" fx:id="x1" />
+              </HBox.margin>
+            </Slider>
+          </children>
+          <VBox.margin>
+            <Insets />
+          </VBox.margin>
+        </HBox>
+        <HBox id="HBox" alignment="CENTER" spacing="5.0">
+          <children>
+            <Button contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleConfirm" text="%label.control.confirm" textAlignment="CENTER" />
+            <Button mnemonicParsing="false" onAction="#handleCancel" text="%label.control.cancel" />
+          </children>
+        </HBox>
+      </children>
+    </VBox>
+  </children>
+</AnchorPane>

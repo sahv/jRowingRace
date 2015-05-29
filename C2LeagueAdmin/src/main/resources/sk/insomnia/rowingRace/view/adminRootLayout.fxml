@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="700.0" prefWidth="800.0" styleClass="background" xmlns:fx="http://javafx.com/fxml" fx:controller="sk.insomnia.rowingRace.controller.RootLayoutController">
+  <!-- TODO Add Nodes -->
+  <top>
+    <MenuBar>
+      <menus>
+        <Menu mnemonicParsing="false" text="%menu.application">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleClose" text="%menu.item.close" fx:id="close" />
+            <MenuItem mnemonicParsing="false" onAction="#handleLanguage" text="%menu.item.language" fx:id="language" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </top>
+</BorderPane>

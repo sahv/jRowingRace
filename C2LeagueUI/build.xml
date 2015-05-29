@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project RowingRaceUI with libraries in sub-folder">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace.jar">
+            <manifest>
+                <attribute name="Main-Class" value="sk.insomnia.rowingRace.application.RowingRaceGui"/>
+                <attribute name="Class-Path" value=". rowingRace_lib/xmlpull-1.1.3.1.jar rowingRace_lib/xpp3_min-1.1.4c.jar rowingRace_lib/xstream-1.4.3.jar rowingRace_lib/mysql-connector-java-5.1.12-bin.jar rowingRace_lib/log4j-1.2.14.jar rowingRace_lib/javafx-dialogs-0.0.3.jar rowingRace_lib/extfx-0.2.jar rowingRace_lib/jfxrt.jar"/>
+            </manifest>
+            <fileset dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceUI/bin"/>
+            <fileset dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceData/bin"/>
+            <fileset dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/tools/bin"/>
+            <fileset dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceRemote/bin"/>
+        </jar>
+        <delete dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <mkdir dir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceData/lib/xmlpull-1.1.3.1.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceData/lib/xpp3_min-1.1.4c.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceData/lib/xstream-1.4.3.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceData/lib/mysql-connector-java-5.1.12-bin.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceRemote/lib/log4j-1.2.14.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceUI/lib/javafx-dialogs-0.0.3.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/RowingRaceUI/lib/extfx-0.2.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+        <copy file="C:/Program Files (x86)/Java/jdk1.7.0_21/jre/lib/jfxrt.jar" todir="W:/personal/bobek_svn_repo/rowingRace.devel/jRowingRace/target/rowingRace_lib"/>
+    </target>
+</project>

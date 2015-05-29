@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="692.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sk.insomnia.rowingRace.controller.AdminOverviewController">
+  <children>
+    <TabPane id="MainTabs" fx:id="tabPane" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <tabs>
+        <Tab text="%label.tab.disciplines">
+          <content>
+            <fx:include fx:id="disciplines" source="disciplinesView.fxml" />
+          </content>
+        </Tab>
+        <Tab onSelectionChanged="#tabCodeTablesSelected" text="%label.tab.codeTables">
+          <content>
+            <fx:include fx:id="codeTables" source="codeTables.fxml" />
+          </content>
+        </Tab>
+        <Tab onSelectionChanged="#managedCodeTablesSelected" text="%label.managed.codeTables">
+          <content>
+              <fx:include fx:id="masterSlaveCodeTable" source="masterSlaveCodeTableView.fxml" />
+          </content>
+        </Tab>
+        <Tab closable="false" onSelectionChanged="#tabRaceCalendarSelected" text="%label.tab.raceCalendar">
+          <content>
+            <fx:include fx:id="raceCalendar" source="raceCalendarView.fxml" />
+          </content>
+        </Tab>
+        <Tab onSelectionChanged="#tabPerformanceSelected" text="%label.tab.performancesAdministration">
+          <content>
+            <fx:include fx:id="performancesAdministration" source="performancesAdministration.fxml" />
+          </content>
+        </Tab>
+            <Tab onSelectionChanged="#tabOrganizationsSelected" text="%label.tab.institution">
+                <content>
+                    <fx:include fx:id="organizationAdministration" source="organizationView.fxml" />
+                </content>
+            </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

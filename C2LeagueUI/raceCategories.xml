@@ -1,0 +1,257 @@
+<list>
+  <codeTable>
+    <id>1</id>
+    <acronym>SECOND_SCHOOLS</acronym>
+    <value>Stredné školy</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>4</id>
+        <value>Stredné školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>21</id>
+        <value>Középiskolák</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>22</id>
+        <value>Srednje škole</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>23</id>
+        <value>Средние школы</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>24</id>
+        <value>Licea</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>25</id>
+        <value>Stredné školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>26</id>
+        <value>Secondary schools</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>2</id>
+    <acronym>UNIVERSITIES</acronym>
+    <value>Vysoké školy</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>14</id>
+        <value>Vysoké školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>15</id>
+        <value>Főiskolák</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>16</id>
+        <value>Vysoké školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>17</id>
+        <value>Universities</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>18</id>
+        <value>Uniwersytety</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>19</id>
+        <value>Univerziteti</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>20</id>
+        <value>Университеты</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>13</id>
+    <acronym>ZÁKLADNÉ ŠKOLY</acronym>
+    <value>Základné školy</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>196</id>
+        <value>Základní školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>197</id>
+        <value>Základné školy</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>257</id>
+        <value>Elementary schools</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>17</id>
+    <acronym>FIREMEN</acronym>
+    <value>Hasiči</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>255</id>
+        <value>Hasiči</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>287</id>
+        <value>Tűzoltók</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>288</id>
+        <value>Firemen</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>289</id>
+        <value>Hasiči</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>18</id>
+    <acronym>VISUALLY IMPAIRED</acronym>
+    <value>Zrakovo postihnutí</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>292</id>
+        <value>Zrakovo postihnutí</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_RACE_CATEGORY</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+</list>

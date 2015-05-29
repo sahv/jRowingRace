@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.collections.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="692.0" prefWidth="979.0" xmlns:fx="http://javafx.com/fxml" fx:controller="sk.insomnia.rowingRace.controller.AdminOverviewController">
+  <children>
+    <TabPane id="MainTabs" fx:id="tabPane" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <tabs>
+        <Tab text="%label.tab.disciplines">
+          <content>
+            <fx:include fx:id="disciplines" source="disciplinesView.fxml" />
+          </content>
+        </Tab>
+        <Tab text="%label.tab.codeTables">
+          <content>
+            <fx:include fx:id="codeTables" source="codeTables.fxml" />
+          </content>
+        </Tab>
+        <Tab text="%label.managed.codeTables">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+        <Tab closable="false" text="%label.tab.raceCalendar">
+          <content>
+            <fx:include fx:id="raceCalendar" source="raceCalendarView.fxml" />
+          </content>
+        </Tab>
+        <Tab text="%label.tab.performancesAdministration">
+          <content>
+            <fx:include fx:id="performancesAdministration" source="performancesAdministration.fxml" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

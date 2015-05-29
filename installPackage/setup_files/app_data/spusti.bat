@@ -1,0 +1,3 @@
+@echo off 
+%JAVA_JRE_17%\bin\java -cp ./lib/jfxrt.jar;./lib/extfx-0.2.jar;./lib/javafx-dialogs-0.0.3.jar;application-updater.jar; sk.insomnia.commons.updater.application.ApplicationUpdater http://www.sahv.sk/rowingRace/download/C2LeagueUI.jar http://www.sahv.sk/rowingRace/version.html version C2LeagueUI.jar
+%JAVA_JRE_17%\bin\java -cp ./lib/jfxrt.jar;./lib/extfx-0.2.jar;./lib/javafx-dialogs-0.0.3.jar;C2LeagueUI.jar; sk.insomnia.rowingRace.application.RowingRaceGui

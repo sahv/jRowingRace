@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="692.0" prefWidth="979.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sk.insomnia.rowingRace.controller.OrganizationAdministrationController">
+   <children>
+      <TabPane prefHeight="692.0" prefWidth="979.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <tabs>
+          <Tab text="%label.tab.institution">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <GridPane layoutX="14.0" layoutY="14.0" prefHeight="663.0" prefWidth="979.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="432.0" minHeight="10.0" prefHeight="325.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="345.0" minHeight="10.0" prefHeight="331.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TableView fx:id="tvSchools" prefHeight="200.0" prefWidth="200.0">
+                                <columns>
+                                    <TableColumn fx:id="tcOrganizationName" minWidth="169.0" prefWidth="75.0" text="%label.school.name" />
+                                  <TableColumn fx:id="tcOrganizationAddress" minWidth="169.0" prefWidth="75.0" text="%label.address" />
+                                  <TableColumn fx:id="tcRaceCategory" minWidth="169.0" prefWidth="75.0" text="%race.raceCategory" />
+                                    <TableColumn fx:id="tcOrganizationKey" minWidth="169.0" prefWidth="75.0" text="%label.school.generatedKey" />
+                                </columns>
+                              </TableView>
+                              <GridPane GridPane.rowIndex="1">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="304.0" minHeight="10.0" prefHeight="286.0" vgrow="SOMETIMES" />
+                                  <RowConstraints maxHeight="106.0" minHeight="3.0" prefHeight="21.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <HBox alignment="CENTER" spacing="4.0" GridPane.rowIndex="1">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#deleteOrganization" text="%label.school.delete" GridPane.rowIndex="2" />
+                                          <Button mnemonicParsing="false" onAction="#submitOrganization" text="%label.organization.submit" />
+                                          <Button mnemonicParsing="false" onAction="#newOrganiation" text="%label.control.new" />
+                                       </children>
+                                       <GridPane.margin>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </GridPane.margin>
+                                       <padding>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </padding>
+                                    </HBox>
+                                    <GridPane hgap="10.0" vgap="10.0">
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%label.school.name" textAlignment="RIGHT">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%label.address.city" textAlignment="RIGHT" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%label.address.street" textAlignment="RIGHT" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%label.address.zipCode" textAlignment="RIGHT" GridPane.rowIndex="3">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%label.address.country" textAlignment="RIGHT" GridPane.rowIndex="4">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" minWidth="240.0" text="%race.raceCategory" textAlignment="RIGHT" GridPane.rowIndex="5">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <TextField fx:id="tfOrganizationName" GridPane.columnIndex="1" />
+                                          <TextField fx:id="tfCity" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                                          <TextField fx:id="tfStreet" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                                          <TextField fx:id="tfZipCode" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                                          <ComboBox fx:id="cbCountry" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                                          <ComboBox fx:id="cbRaceCategory" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab onSelectionChanged="#tbTeamsSelected" text="%label.tab.teams">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <GridPane layoutX="118.0" layoutY="124.0" prefHeight="663.0" prefWidth="979.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <TableView fx:id="tvTeams" prefHeight="200.0" prefWidth="200.0">
+                                <columns>
+                                  <TableColumn fx:id="tcTeamName" prefWidth="250.0" text="%label.team.name" />
+                                  <TableColumn fx:id="tcTeamCategory" minWidth="0.0" prefWidth="250.0" text="%label.team.category" />
+                                </columns>
+                              </TableView>
+                              <GridPane GridPane.rowIndex="1">
+                                <columnConstraints>
+                                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <children>
+                                    <HBox alignment="CENTER" GridPane.rowIndex="1">
+                                       <children>
+                                          <Button mnemonicParsing="false" onAction="#submitTeam" text="%label.team.addTeam" GridPane.rowIndex="1">
+                                             <HBox.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#deleteTeam" text="%label.team.deleteTeam" GridPane.rowIndex="1">
+                                             <HBox.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button mnemonicParsing="false" onAction="#newTeam" text="%label.control.new" />
+                                       </children>
+                                    </HBox>
+                                    <GridPane>
+                                      <columnConstraints>
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                                      </columnConstraints>
+                                      <rowConstraints>
+                                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                                      </rowConstraints>
+                                       <children>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="482.0" text="%label.team.name">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="485.0" text="%label.team.category" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <TextField fx:id="tfTeamName" GridPane.columnIndex="1">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin></TextField>
+                                          <ComboBox fx:id="cbDisciplineCategory" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin></ComboBox>
+                                          <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="491.0" text="%label.raceCalendar.year" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </Label>
+                                          <ComboBox fx:id="cbRaceYear" prefWidth="150.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                                             <GridPane.margin>
+                                                <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                             </GridPane.margin>
+                                          </ComboBox>
+                                       </children>
+                                    </GridPane>
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

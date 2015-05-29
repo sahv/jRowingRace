@@ -1,0 +1,464 @@
+<list>
+  <codeTable>
+    <id>1</id>
+    <acronym>COUNTRY_SVK</acronym>
+    <value>Slovenská republika.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>137</id>
+        <value>Slovenská republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>138</id>
+        <value>Slovenská republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>139</id>
+        <value>Republika Słowacka.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>140</id>
+        <value>Словацкая Республика.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>141</id>
+        <value>Slovačka Republika .</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>142</id>
+        <value>Szlovák Köztársaság.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>143</id>
+        <value>Slovak Republic.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>2</id>
+    <acronym>COUNTRY_CZE</acronym>
+    <value>Česká Republika.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>144</id>
+        <value>Csehország.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>145</id>
+        <value>Česká Republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>146</id>
+        <value>Česká Republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>147</id>
+        <value>Чехия.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>148</id>
+        <value>Češka.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>149</id>
+        <value>Czech Republic.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>150</id>
+        <value>Czechy.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>4</id>
+    <acronym>COUNTRY_HU</acronym>
+    <value>Maďarská Republika.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>151</id>
+        <value>Maďarská Republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>152</id>
+        <value>Maďarská Republika.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>153</id>
+        <value>Węgry.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>154</id>
+        <value>Венгрия.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>155</id>
+        <value>Mađarska .</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>156</id>
+        <value>Hungary.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>157</id>
+        <value>Magyarország</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>5</id>
+    <acronym>COUNTRY_POL</acronym>
+    <value>Poľsko.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>158</id>
+        <value>Poljska</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>159</id>
+        <value>Polsko.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>160</id>
+        <value>Poľsko.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>161</id>
+        <value>Польша.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>162</id>
+        <value>Poland.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>163</id>
+        <value>Lengyelország</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>164</id>
+        <value>Polska</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>9</id>
+    <acronym>COUNTRY_SRB</acronym>
+    <value>Srbsko.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>165</id>
+        <value>Srbsko.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>166</id>
+        <value>Srbsko.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>167</id>
+        <value>Serbia.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>168</id>
+        <value>Szerbiában.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>169</id>
+        <value>Сербия.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>170</id>
+        <value>Srbija</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>171</id>
+        <value>Serbia.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+  <codeTable>
+    <id>18</id>
+    <acronym>COUNTRY_RU</acronym>
+    <value>Ruská Federácia.</value>
+    <languageMutations>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>172</id>
+        <value>Ruská Federácia.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>5</id>
+          <acronym>SK</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>173</id>
+        <value>Ruská Federace.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>2</id>
+          <acronym>CS</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>174</id>
+        <value>Russian Federation.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>3</id>
+          <acronym>EN</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>175</id>
+        <value>Ruska Federacija .</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>6</id>
+          <acronym>SR</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>176</id>
+        <value>Русский Федерация.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>7</id>
+          <acronym>RU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>177</id>
+        <value>Orosz Föderáció.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>1</id>
+          <acronym>HU</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+      <sk.insomnia.rowingRace.so.LanguageMutation>
+        <id>178</id>
+        <value>Rosja.</value>
+        <language class="sk.insomnia.rowingRace.so.EnumEntitySO">
+          <id>4</id>
+          <acronym>PL</acronym>
+          <languageMutations/>
+        </language>
+        <codeTable>CT_COUNTRIES</codeTable>
+      </sk.insomnia.rowingRace.so.LanguageMutation>
+    </languageMutations>
+  </codeTable>
+</list>
